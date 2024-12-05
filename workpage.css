@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "creato";
+    src: url(CreatoDisplay-Medium\ copy.otf);
+}
+
+@font-face {
+    font-family: "redaction";
+    src: url(Redaction20-Regular.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    background-color: #000000;
+    background-size: cover;
+    width: 100vw;
+    overflow: hidden ;
+}
+
+.marquee {
+    width: max-content;
+    height: fit-content;
+    white-space: nowrap;
+    filter: blur(1px);
+    position: fixed;
+    top: 0;
+    
+
+}
+
+.title-text {
+    font-size: 60px;
+    font-family: "redaction";
+    color: rgb(255, 255, 255);
+    animation: marquee 10s infinite linear;
+}
+
+@keyframes marquee {
+    
+    0% {
+        transform: translateX(-50%)
+    }
+}
+
+.content-block {
+    width: 100vw;
+    margin: auto;
+
+}
+
+.item {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.caption {
+    font-size: 25px;
+    font-family: "redaction";
+    color: rgb(255, 255, 255);
+    display: block;
+}
