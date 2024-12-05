@@ -207,6 +207,7 @@ a {
     
     .photos {
         height: 400px;
+        transition: 1s;
     }
 
     .bottom-container2{
@@ -223,6 +224,7 @@ a {
     
     .photos {
         height: 300px;
+        transition: 1s;
     }
 
     .bottom-container2{
@@ -235,7 +237,7 @@ a {
 
     .w3-display-right {
         position: absolute;
-        margin-left: 95%;
+        margin-left: 96%;
         
     }
 }
