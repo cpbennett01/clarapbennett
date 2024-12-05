@@ -111,6 +111,15 @@ a {
     margin-top: 15%;
 }
 
+.bottom-container3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 30%;
+    margin-left: 10%;
+    filter: blur(.5px);
+}
+
 .photos {
     height: 500px;
 }
@@ -126,7 +135,14 @@ a {
     height: 40px;
     color: white;
     background-color: black;
+    border: 0 none;
     
+}
+
+.w3-button:hover {
+    color: black;
+    background-color: white;
+    transition: 1s;
 }
 
 .w3-display-left {
@@ -137,9 +153,37 @@ a {
 
 .w3-display-right {
     position: absolute;
-    margin-left: 97%;
+    margin-left: 97.5%;
     
 }
+
+.cursor{
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 20px;
+    font-family: "redaction";
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+.typewriter-animation {
+    animation: 
+      typewriter 5s steps(50) 1s 1 normal both, 
+      blinkingCursor 500ms steps(50) infinite normal;
+  }
+  @keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  @keyframes blinkingCursor{
+    from { border-right-color: rgba(255,255,255,.75); }
+    to { border-right-color: transparent; }
+  }
 
 /*900 tablet style*/
 @media screen and (max-width: 1100px) {
