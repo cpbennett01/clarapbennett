@@ -174,3 +174,20 @@ a {
 
 
 }
+
+@media screen and (max-width:500px) {
+    .body-text {
+        font-size: 40px;
+    }
+
+    .body-text2 {
+        font-size: 40px;
+    }
+
+    .inline {
+        margin-top: 30%;
+    }
+
+
+
+}
