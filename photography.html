@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </title>
+        <link rel="stylesheet" href="work.css"> 
+        <link rel="icon" type="image/png" href="clara_favicon copy.jpg"> 
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="marquee"><a href="index.html">
+                <p class="title-text">   BENNETT  CLARA BENNETT  CLARA BENNETT  CLARA BENNETT CLARA BENNETT  CLARA BENNETT  CLARA BENNETT  CLARA BENNETT</p></a>
+            </div>
+       
+    <div class="bottom-container2">
+        
+        <div class="display-container">
+        <img class="photos" src="photo1.jpg">
+        <img class="photos" src="photo2.jpg">
+        <img class="photos" src="photo3.jpg">
+        <img class="photos" src="photo4.jpg">
+        <img class="photos" src="photo5.jpg">
+        <img class="photos" src="photo6.jpg">
+        <img class="photos" src="photo7.jpg">
+        <img class="photos" src="photo8.jpg">
+        <img class="photos" src="photo9.jpg">
+        <img class="photos" src="photo10.jpg">
+        <img class="photos" src="photo11.jpg">
+        <img class="photos" src="photo12.jpg">
+        <img class="photos" src="photo13.jpg">
+        <img class="photos" src="photo14.jpg">
+        <img class="photos" src="photo15.jpg">
+        <img class="photos" src="photo16.jpg">
+        <img class="photos" src="photo17.jpg">
+        <img class="photos" src="photo18.jpg">
+        <img class="photos" src="photo19.jpg">
+
+ <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("photos");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+    </div>      
+    
+    </body>

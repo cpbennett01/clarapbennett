@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "arialic";
+    src: url(Arialic\ Hollow.ttf);
+}
+
+@font-face {
+    font-family: "redaction";
+    src: url(Redaction20-Regular.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    background-color: #000000;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden ;
+}
+
+.marquee {
+    width: max-content;
+    height: fit-content;
+    white-space: nowrap;
+    
+    position: sticky;
+    
+
+}
+
+.title-text {
+    font-size: 60px;
+    font-family: "redaction";
+    color: rgb(255, 255, 255);
+    animation: marquee 10s infinite linear;
+}
+
+@keyframes marquee {
+    
+    0% {
+        transform: translateX(-50%)
+    }
+}
+
+.inline {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+    
+}
+
+.body-text {
+    font-size: 20px;
+    font-family: "arialic";
+    margin: auto;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.body-text:hover {
+    width: 100%;
+    text-align: center;
+    animation: gradient 2.4s infinite ease-in-out;
+    letter-spacing: 10px;
+    white-space: nowrap;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+@keyframes gradient{
+    0%{
+      letter-spacing: 10px;
+      text-indent: 10px;
+    }
+    40%{
+      letter-spacing: 50px;
+      text-indent: 50px;    
+    }
+  
+    80%{
+      letter-spacing: 10px;
+      text-indent: 10px;    
+    }
+    
+    
+    100%{
+      letter-spacing: 10px;
+      text-indent: 10px;    
+    }
+    
+  }
+
+.body-text2 {
+    font-size: 20px;
+    font-family: "arialic";
+    margin: auto;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.body-text2:hover {
+    width: 100%;
+    text-align: center;
+    animation: gradient2 2.4s infinite ease-in-out;
+    letter-spacing: 10px;
+    white-space: nowrap;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+
+@keyframes gradient2{
+    0%{
+      letter-spacing: 10px;
+      text-indent: 10px;
+    }
+    40%{
+      letter-spacing: 30px;
+      text-indent: 30px;    
+    }
+  
+    80%{
+      letter-spacing: 10px;
+      text-indent: 10px;    
+    }
+    
+    
+    100%{
+      letter-spacing: 10px;
+      text-indent: 10px;    
+    }
+    
+  }
+
+.content-box:hover {
+    filter: blur(1px);
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 100vw;
+        height: fit-content;
+    }
+    
+    .content-box {
+        width: 80%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .body-text {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background: linear-gradient(to-bottom, #000, #FFFFFF);
+    }
+
+
+
+}
