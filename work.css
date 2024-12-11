@@ -104,6 +104,10 @@ a {
     
 }
 
+.display-pic {
+    height: 350px;
+}
+
 
 .bottom-container2{
     display: flex;
@@ -264,5 +268,14 @@ a {
         margin-top: 55%;
         transition: 1s;
     }
+}
+
+@media screen and (max-width:550px) {
+    
+    .display-pic {
+        height: 250px;
+    }
+
+
 }
 
