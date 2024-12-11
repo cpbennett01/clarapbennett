@@ -80,22 +80,22 @@ a {
 }
 
 .display-pic {
-    height: 700px;
+    width: 700px;
 }
 
 @media screen and (max-width:550px) {
     
     .item {
         margin-top: 50%;
-        transition-timing-function: 2s;
+        transition: 2s;
     }
 
     .display-pic {
-        width: 80%;
+        width: 300px;
     }
 
     .caption {
-        font-size: 15px;
+        font-size: 20px;
         font-family: "redaction";
         color: rgb(255, 255, 255);
         display: block;
@@ -107,8 +107,8 @@ a {
 @media screen and (max-width:1000px) {
     
     .item {
-        margin-top: 50%;
-        transition-timing-function: 2s;
+        margin-top: 40%;
+        transition: 2s;
     }
 
     .display-pic {
@@ -116,7 +116,7 @@ a {
     }
 
     .caption {
-        font-size: 15px;
+        font-size: 20px;
         font-family: "redaction";
         color: rgb(255, 255, 255);
         display: block;
