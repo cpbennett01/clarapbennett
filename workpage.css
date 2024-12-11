@@ -86,12 +86,14 @@ a {
 @media screen and (max-width:550px) {
     
     .item {
-        margin-top: 50%;
+        width: 100vw;
+        margin: auto;
         transition: 2s;
+        
     }
 
     .display-pic {
-        width: 100vw
+        width: 100%;
     }
 
     .caption {
