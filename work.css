@@ -203,12 +203,14 @@ a {
 
     .bottom-container {
         flex-wrap: wrap;
-        margin: auto;
+        margin-top: 20%;
+        justify-content: center;
     }
 
     .itemleft, .itemright {
-        width: 100vw;
+        width: fit-content;
         margin: 10%;
+        height: fit-content;
     
         
     }
