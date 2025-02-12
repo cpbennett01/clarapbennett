@@ -73,7 +73,7 @@ a {
 }
 
 .caption {
-    font-size: 25px;
+    font-size: 18px;
     font-family: "redaction";
     color: rgb(255, 255, 255);
     display: block;
@@ -97,7 +97,7 @@ a {
     }
 
     .caption {
-        font-size: 20px;
+        font-size: 18px;
         font-family: "redaction";
         color: rgb(255, 255, 255);
         display: block;
@@ -118,7 +118,7 @@ a {
     }
 
     .caption {
-        font-size: 20px;
+        font-size: 18px;
         font-family: "redaction";
         color: rgb(255, 255, 255);
         display: block;
